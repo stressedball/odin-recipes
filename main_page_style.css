@@ -11,39 +11,33 @@ h1.main_title {
     font-family: "Arial", "Verdana", sans-serif;
 }
 
-.main-page_list {
+#recipe_blocks {
     background-color: dimgray;
     border-radius: 50px;
     margin: auto;
     text-align: center;
-    width: 75%;
-    height: 600px;
-}
-
-.main-page_list div {
-    height: 33%;
-}
-
-.recipe_link {
-    color: cyan;
-}
-
-div img {
-    width: 60px;
+    width: 50%;
     height: auto;
 }
 
-/* Search how to call child of element that has a class
+.flexbaby {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.recipe_link {
+    color: cyan;
+    font-size: 30px;
+    flex:1;
+    font-family: "fantasy", Arial, Helvetica, sans-serif;
+}
 
-In this example :
-You have the class main-page_list from which you have <a> class.
-How to style the <a> class? More precisely how to call it? Do I need to give it a class name?
+a img {
+    width: 240px;
+    height: auto;
+    flex:1;
+    object-fit: fill;
+}
 
-If yes is the answer:
-Work with :
-main-page_list <a> {
-    position: relative;
-    top: Xpx;
-    left:Xpx;
-    etc;
-**/
+/* too much googling */
