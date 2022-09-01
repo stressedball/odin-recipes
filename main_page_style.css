@@ -1,38 +1,49 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(165 65 18 / 58%);
-    /*
-    background-image: url("../odin-links-and-images/images/beach.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    max-width: 700px;*/
-}
-
-h1 {
-    margin-left: 25%;
-    margin-right: 25%;
-    text-align: center;
-    font-family: "Arial", "Verdana", sans-serif;
 }
 
 h1.main_title {
     font-size: 90px;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: center;
+    font-family: "Arial", "Verdana", sans-serif;
 }
 
 .main-page_list {
     background-color: dimgray;
-    margin: 20px;
+    border-radius: 50px;
+    margin: auto;
     text-align: center;
     width: 75%;
+    height: 600px;
+}
+
+.main-page_list div {
+    height: 33%;
 }
 
 .recipe_link {
     color: cyan;
-    display: inline-block;
-    margin-bottom: 40px;
-    margin-top: 30px;
 }
+
+div img {
+    width: 60px;
+    height: auto;
+}
+
+/* Search how to call child of element that has a class
+
+In this example :
+You have the class main-page_list from which you have <a> class.
+How to style the <a> class? More precisely how to call it? Do I need to give it a class name?
+
+If yes is the answer:
+Work with :
+main-page_list <a> {
+    position: relative;
+    top: Xpx;
+    left:Xpx;
+    etc;
+**/

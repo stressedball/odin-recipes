@@ -5,26 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Main page</title>
-        <link href="style.css" rel="stylesheet">
+        <link href="main_page_style.css" rel="stylesheet">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
+        <h1 class="main_title">Odin Recipes</h1>
 
-        <!--tried adding an image bullet, with the display and list-style-image but didnt succeed-->
-        <ul class="main-page_list">
-            <li><a class="recipe_link" 
-                href="recipes/lasagna.html"     
-                styles="display:list-item;
-                list-style-image: url(images/lasagna.jpeg)">
-                Lasagna!
-            </a></li>
-            <li><a class="recipe_link" 
+        <div class="main-page_list">
+            <div>
+                <a class="recipe_link" 
+                href="recipes/lasagna.html">     
+                Lasagna!</a>
+                    <img src="../odin-recipes/images/lasagna.jpeg" alt="lasagna pic">
+            </div>
+            <div>
+                <a class="recipe_link" 
                 href="recipes/carrot_cake.html">
-                An easy carrot cake recipe :)</a></li>
-            <li><a class="recipe_link" 
+                An easy carrot cake recipe :)</a>
+                    <img src="../odin-recipes/images/carrot_cake.webp" alt="carrot cake">
+            </div>
+            <div>
+                <a class="recipe_link" 
                 href="recipes/tajine.html">
-                Moroccan meatball tajine</a></li>
-        </ul>
+                Moroccan meatball tajine</a>
+                    <img src="../odin-recipes/images/tajine.webp" alt="tajine pic">
+            </div>
+        </div>
     </body>
 </html>
