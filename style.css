@@ -1,18 +1,48 @@
+body {
+    /*
+    background-image: url("../odin-links-and-images/images/beach.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    max-width: 700px;
+}
+
+.main-page_list {
+    background-color: dimgray;
+}
+/*
+.recipe_link {
+    background-color: yellow;
+    border: 2px seashell solid;
+    line-height: 100px;
+
+}*/
+
 h1 {
     text-align: center;
     background-color: blue;
     font-family: "Arial", "Verdana", sans-serif;
 }
 
-body {
-    background-image: ;
-    background-color: green;
+h4 {
+    background-color: yellow;
+    size: auto;
 }
 
-.recipe_link {
-    background-color: yellow;
-    font-weight: 300px;
-    border: 2px seashell solid;
-    width: fit-content;
+p {
+    background-color: white;
+    background-size: auto;
+}
 
+ul {
+    background-color: purple;
+    background-size: cover;
+}
+
+ol {
+    background-color: darksalmon;
+}
+
+img {
+    object-position: center;
 }

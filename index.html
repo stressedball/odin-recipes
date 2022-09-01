@@ -2,16 +2,29 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Main page</title>
+        <link href="style.css" rel="stylesheet">
     </head>
 
     <body>
         <h1>Odin Recipes</h1>
 
-        <ul>
-            <li><a href="recipes/lasagna.html">Lasagna!</a></li>
-            <li><a href="recipes/carrot_cake.html">An easy carrot cake recipe :)</a></li>
-            <li><a href="recipes/tajine.html">Moroccan meatball tajine</a></li>
+        <!--tried adding an image bullet, with the display and list-style-image but didnt succeed-->
+        <ul class="main-page_list">
+            <li><a class="recipe_link" 
+                href="recipes/lasagna.html"     
+                styles="display:list-item;
+                list-style-image: url(images/lasagna.jpeg)">
+                Lasagna!
+            </a></li>
+            <li><a class="recipe_link" 
+                href="recipes/carrot_cake.html">
+                An easy carrot cake recipe :)</a></li>
+            <li><a class="recipe_link" 
+                href="recipes/tajine.html">
+                Moroccan meatball tajine</a></li>
         </ul>
     </body>
 </html>
