@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    background-color: blue;
+    font-family: "Arial", "Verdana", sans-serif;
+}
+
+body {
+    background-image: ;
+    background-color: green;
+}
+
+.recipe_link {
+    background-color: yellow;
+    font-weight: 300px;
+    border: 2px seashell solid;
+    width: fit-content;
+
+}
