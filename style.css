@@ -1,48 +1,17 @@
 body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(165 65 18 / 58%);
     /*
     background-image: url("../odin-links-and-images/images/beach.jpeg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover; */
-    max-width: 700px;
+    background-size: cover; 
+    max-width: 700px;*/
 }
 
-.main-page_list {
-    background-color: dimgray;
-}
-/*
-.recipe_link {
-    background-color: yellow;
-    border: 2px seashell solid;
-    line-height: 100px;
 
-}*/
-
-h1 {
-    text-align: center;
-    background-color: blue;
-    font-family: "Arial", "Verdana", sans-serif;
+.description_block {
+    height: 500px;
 }
 
-h4 {
-    background-color: yellow;
-    size: auto;
-}
 
-p {
-    background-color: white;
-    background-size: auto;
-}
-
-ul {
-    background-color: purple;
-    background-size: cover;
-}
-
-ol {
-    background-color: darksalmon;
-}
-
-img {
-    object-position: center;
-}
