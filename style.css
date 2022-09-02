@@ -7,22 +7,43 @@ h1 {
     text-align: center;
 }
 
+.page {
+    display: flex;
+    gap: 15px;
+}
+
+.menu {
+    display: flex;
+    border: solid;
+    flex-direction: column;
+    gap: 10px;
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.menu div {
+
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    /**flex: 1;**/
+    gap: 20px;
+}
+
 .description_block {
     display: flex;
-    justify-content: center;
+    gap: 30px;
 }
 
 .description_block img {
-    flex: 1;
     max-width: 300px;  
 }
 
-.description_block .description_text {
-    flex: 1;
-    max-width: 480px;
+.description_block .description_text { 
     border: solid;
-    margin-left: 50px;
-    padding: 50px;
 }
 
 .description_text h4 {
@@ -37,11 +58,6 @@ h1 {
 
 .ingredients {
     border: solid;
-    max-width: 50%;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
 }
 
 .steps h4 {
@@ -52,9 +68,12 @@ h1 {
 
 .steps {
     border: solid;
-    max-width: 50%;
-    margin-top: 50px;
-    margin-left:auto;
-    margin-right: auto;
-    padding: 5px;
+}
+
+ul li {
+    margin-bottom: 3px;
+}
+
+ol li {
+    margin-bottom: 20px;
 }
