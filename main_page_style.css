@@ -16,7 +16,7 @@ h1.main_title {
     border-radius: 50px;
     margin: auto;
     text-align: center;
-    width: 50%;
+    width:max-content;
     height: auto;
 }
 
@@ -40,4 +40,4 @@ a img {
     object-fit: fill;
 }
 
-/* too much googling */
+

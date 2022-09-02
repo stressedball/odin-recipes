@@ -1,17 +1,60 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(165 65 18 / 58%);
-    /*
-    background-image: url("../odin-links-and-images/images/beach.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; 
-    max-width: 700px;*/
 }
 
+h1 {
+    text-align: center;
+}
 
 .description_block {
-    height: 500px;
+    display: flex;
+    justify-content: center;
 }
 
+.description_block img {
+    flex: 1;
+    max-width: 300px;  
+}
 
+.description_block .description_text {
+    flex: 1;
+    max-width: 480px;
+    border: solid;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+.description_text h4 {
+    text-align: center;
+}
+
+.ingredients h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.ingredients {
+    border: solid;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.steps h4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+.steps {
+    border: solid;
+    max-width: 50%;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
+}
