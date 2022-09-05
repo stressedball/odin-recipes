@@ -1,79 +1,77 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(165 65 18 / 58%);
-}
-
-h1 {
-    text-align: center;
-}
-
-.page {
-    display: flex;
-    gap: 15px;
-}
-
-.menu {
-    display: flex;
-    border: solid;
-    flex-direction: column;
-    gap: 10px;
-
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.menu div {
-
-}
-
-.blocks {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    /**flex: 1;**/
-    gap: 20px;
 }
 
-.description_block {
+.block {
     display: flex;
-    gap: 30px;
+    gap: 100px;
 }
 
-.description_block img {
-    max-width: 300px;  
+.container {
+    display: flex;
+    
 }
 
-.description_block .description_text { 
-    border: solid;
+.description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
 
-.description_text h4 {
+.description .title {
+    font-size: 34px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
-.ingredients h4 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
+.footer {
+    flex: 0;
     text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    font-family: 'fantasia';
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .ingredients {
-    border: solid;
+    flex: 1;
+    padding-bottom: 100px;
 }
 
-.steps h4 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: large;
-    text-align: center;
+.menu {
+    flex: 1;
+    max-width: 260px;
+    background-color: grey;
+}
+
+.page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
 }
 
 .steps {
-    border: solid;
+    flex:1;
 }
 
-ul li {
-    margin-bottom: 3px;
+.title,
+.description_text .title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 18px;
 }
 
-ol li {
-    margin-bottom: 20px;
-}
