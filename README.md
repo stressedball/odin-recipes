@@ -17,3 +17,8 @@ So far :
 "Website" of 3 recipes :
 Main page (playing with Flex)
 The recipes pages would be the next steps?
+
+As of 16/09/2022
+Project : make pages more polished (CSS).
+Try to implement JS behaviors (need ideas).
+Thinking about making main page as a menu (a cartoonish/fun design).
